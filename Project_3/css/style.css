@@ -167,6 +167,7 @@ textarea.form-control {
   width: 100%;
 }
 
+/* Not scrolled logo? */
 .site-header .site-logo {
   line-height: 3;
   padding: 4px 10px;
@@ -175,6 +176,7 @@ textarea.form-control {
   background: #000;
   font-size: 30px;
   font-weight: bold;
+  visibility: hidden;
 }
 
 /* .site-header .social li {
@@ -223,6 +225,7 @@ textarea.form-control {
   color: #fff;
   background: #000;
   font-size: 35px;
+  font-weight: bold;
 }
 
 .site-header.scrolled .site-nav-toggle {
@@ -438,7 +441,8 @@ textarea.form-control {
 
 @media (max-width: 991.98px) {
   .ftco-46 .ftco-46-image {
-    height: 200px;
+    height: 150px;
+    width: 150px;
     display: none;
   }
 }
@@ -1667,7 +1671,7 @@ textarea.form-control {
 
 .ftco-footer {
   background: #121212;
-  padding: 7em 0;
+  padding: 2em 0;
   font-size: 15px;
   font-weight: 400;
 }
